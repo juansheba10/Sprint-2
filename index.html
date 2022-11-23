@@ -284,12 +284,19 @@
                   <div class="small text-white-50 text-center">35.000 ALREADY-JOINED</div>
                     <div class="fs-2 fw-bold text-white mb-3">Stay up-to-date with what we're doing</div>
                 </div>
+                <form>
                 <div class="ms-xl-4">
                     <div class="input-group mb-2">
-                        <input class="form-control rounded" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
-                        <button class="btn bg-secondary mx-2 rounded text-white" id="button-newsletter" type="button">Sign up</button>
+                      <label for="inputEmail" class="form-label"></label>
+                        <input type="email" class="form-control rounded was-validated"
+                        id="inputEmail" 
+                        aria-describedby="emailHelp"
+                         type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
+                
+                        <button class="btn bg-secondary mx-2 rounded text-white" id="button-newsletter" type="submit">Sign up</button>
                     </div>    
                 </div>
+              </form>
             </div>
         </aside>
         <div class="container bg-dark xl-justify-content-space">
@@ -337,7 +344,7 @@
               </div>
               <!-- Grid column -->
             </div>
-        
+
     </footer>
 </body>
 </html>
